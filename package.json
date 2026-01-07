@@ -1,0 +1,19 @@
+{
+  "name": "yolo-project",
+  "version": "1.0.0",
+  "description": "YOLO - You Only Live Once! Fast deployments without code review.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Tests? We don't need tests! YOLO!\" && exit 0",
+    "deploy": "npm run yolo",
+    "yolo": "echo \"Deploying without review... YOLO!\" && npm run start"
+  },
+  "keywords": ["yolo", "fast", "deployment", "no-review"],
+  "author": "YOLO Developer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "dotenv": "^16.0.0"
+  }
+}
